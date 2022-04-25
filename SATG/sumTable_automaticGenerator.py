@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+# Function to add matrix
 def quants_apt(y, m,n):
     # y: length of numbers 
     # m: lowest number start range, n: greatest number end range
