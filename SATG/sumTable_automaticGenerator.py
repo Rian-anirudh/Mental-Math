@@ -6,6 +6,10 @@ def quants_apt(y, m,n):
     # y: length of numbers 
     # m: lowest number start range, n: greatest number end range
     arr = np.random.randint(m,n, size=(2,y))
+    ##
+    # for not repitative arrays
+    # arr = np.random.choice(range(m,n), size=(2,y), replace = False)
+    ##
     sol = np.append(0,arr[0])
     sol = np.append(sol,0)
     ques= sol
